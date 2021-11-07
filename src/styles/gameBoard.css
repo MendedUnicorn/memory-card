@@ -1,0 +1,9 @@
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(4, 15%);
+  grid-template-rows: repeat(auto, 20%);
+  column-gap: 2em;
+  row-gap: 2em;
+  width: 100%;
+  justify-content: center;
+}

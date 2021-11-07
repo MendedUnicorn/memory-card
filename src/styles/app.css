@@ -1,0 +1,42 @@
+:root {
+  --font-type: 'Fira Sans', sans-serif;
+}
+
+.App {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-family: var(--font-type);
+  font-weight: 600;
+}
+
+p {
+  font-family: var(--font-type);
+  font-weight: 200;
+  width: 50%;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.score h2 {
+  margin: 5px;
+  padding: 0;
+  font-family: var(--font-type);
+  font-weight: 200;
+}
